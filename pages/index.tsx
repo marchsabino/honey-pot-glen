@@ -1,8 +1,8 @@
-import Head from "next/head"
+import Head from "next/head";
 
 /**
  * The Homepage Component for Honey Pot Glen.
- * 
+ *
  * @returns the homepage component
  */
 function Home(): JSX.Element {

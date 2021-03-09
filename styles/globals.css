@@ -1,11 +1,11 @@
 /* Custom Variables */
 :root {
-    --theme-primary: blue;
-    --theme-primary-light: blue;
-    --theme-primary-dark: blue;
-    --theme-secondary: orange;
-    --theme-secondary-light: orange;
-    --theme-secondary-dark: orange;
+  --theme-primary: blue;
+  --theme-primary-light: blue;
+  --theme-primary-dark: blue;
+  --theme-secondary: orange;
+  --theme-secondary-light: orange;
+  --theme-secondary-dark: orange;
 }
 
 /* TailWindCSS Imports */
