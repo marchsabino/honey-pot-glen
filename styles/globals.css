@@ -1,16 +1,14 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* Custom Variables */
+:root {
+    --theme-primary: blue;
+    --theme-primary-light: blue;
+    --theme-primary-dark: blue;
+    --theme-secondary: orange;
+    --theme-secondary-light: orange;
+    --theme-secondary-dark: orange;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+/* TailWindCSS Imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
