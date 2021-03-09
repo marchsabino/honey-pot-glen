@@ -1,13 +1,18 @@
-import Head from "next/head";
+import Layout from "../components/layout";
 
 function Home(): JSX.Element {
   return (
-    <>
-      <Head>
-        <title>{process.env.NEXT_PUBLIC_SITE_NAME} - Home</title>
-      </Head>
-      <h1>Hello World!</h1>
-    </>
+    <Layout name="Home">
+      <main className="my-10">
+        <div className="container">
+          <div className="mx-auto max-w-2xl">
+            <div className="text-center text-green-800 bg-green-50 p-2 rounded border-green-200 border">
+              <strong>Notice:</strong> This website is currently growing 🌱
+            </div>
+          </div>
+        </div>
+      </main>
+    </Layout>
   );
 }
 
