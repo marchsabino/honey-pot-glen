@@ -12,8 +12,8 @@ function Layout({ children, name }) {
         </title>
       </Head>
       <div className="flex flex-col h-screen">
-        <nav className="py-1 bg-gray-700">
-          <div className="container flex justify-between">
+        <nav className="py-3 mb-5 bg-gray-700">
+          <div className="container flex justify-between text-md">
             <span className="font-semibold text-gray-200">
               {process.env.NEXT_PUBLIC_SITE_NAME}
             </span>
