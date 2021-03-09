@@ -4,11 +4,11 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 function InstagramLink({ ...props }) {
   return (
     <a
-      className={`hover:text-purple-400 transition duration-300 ${props.className}`}
+      className="hover:text-purple-400 transition duration-300"
       href={process.env.NEXT_PUBLIC_SITE_INSTAGRAM}
       target="_blank"
     >
-      <FontAwesomeIcon icon={faInstagram} />
+      <FontAwesomeIcon className={props.className} icon={faInstagram} />
     </a>
   );
 }

@@ -4,11 +4,11 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 function YoutubeLink({ ...props }) {
   return (
     <a
-      className={`hover:text-red-500 transition duration-300 ${props.className}`}
+      className="hover:text-red-500 transition duration-300"
       href={process.env.NEXT_PUBLIC_SITE_YOUTUBE}
       target="_blank"
     >
-      <FontAwesomeIcon icon={faYoutube} />
+      <FontAwesomeIcon className={props.className} icon={faYoutube} />
     </a>
   );
 }
